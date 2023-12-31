@@ -9,8 +9,5 @@ app.listen(
 // Path: SecondCode/index.js
 
 app.get('/', (req, res) => {
-    res.send({
-        apple:2,
-        banana : 3
-    });
+    res.send("This is live on the internet!");
 });
